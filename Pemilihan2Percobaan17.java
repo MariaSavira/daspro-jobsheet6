@@ -8,7 +8,7 @@ class Pemilihan2Percobaan17{
         tahun = scan.nextInt();
 
         if((tahun % 4) == 0){
-            if((tahun % 100) != 0){
+            if((tahun % 100) == 0){
                 System.out.println("Ini tahun kabisat");
             }
             else{
