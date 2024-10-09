@@ -1,11 +1,11 @@
 import java.util.Scanner; // import Scanner
 public class Pemilihan2Percobaan17{ // nama class bersifat public
     public static void main(String[] args) { 
-        Scanner scan = new Scanner(System.in); // deklarasi Scanner dengan nama scan 
+        Scanner input7 = new Scanner(System.in); // deklarasi Scanner dengan nama scan 
         int tahun; // variabel tahun bertipe data integer
  
         System.out.print("Masukkan tahun : "); // input tahun
-        tahun = scan.nextInt(); // fungsi input tahun
+        tahun = input7.nextInt(); // fungsi input tahun
 
         if((tahun % 4) == 0){ // apabila tahun dibagi empat dan hasil sisa baginya sama dengan 0, maka
             if((tahun % 100) == 0){ // dan apabila tahun hasil modulusnya dengan 100 sama dengan 0, maka
